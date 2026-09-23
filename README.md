@@ -169,9 +169,9 @@ I focus on understanding how technologies work in real-world environments rather
 
 ## 📫 Contact
 
-* LinkedIn: [Your LinkedIn]
-* Email: [Your Email]
-* GitHub: [Your GitHub]
+* LinkedIn: https://www.linkedin.com/in/sobhan-sabzi-62104842a/
+* Email: sabzisobhan@gmail.com
+* GitHub: https://github.com/sobhan-sabzi/
 
 ---
 
