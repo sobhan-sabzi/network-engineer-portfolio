@@ -85,65 +85,137 @@ My primary focus is Cisco networking and infrastructure, with an interest in Lin
 
 ---
 
-# 📂 Networking Projects
+# Networking Projects
 
-### 🔹 VLAN & Inter-VLAN Routing
+### 🔹 01 — VLAN & Inter-VLAN Routing
 
-Enterprise-style network using VLAN segmentation and Inter-VLAN Routing.
+Enterprise-style network using VLAN segmentation and Router-on-a-Stick.
 
-**Technologies:** VLAN, 802.1Q Trunking, Router-on-a-Stick, DHCP, SSH
+**Technologies:**
 
-[View Project](./01-vlan-intervlan/)
+* VLAN
+* 802.1Q Trunking
+* Router-on-a-Stick
+* DHCP
+* SSH
+* Management VLAN
 
----
-
-### 🔹 OSPF Multi-Router Network
-
-Multi-router topology configured with OSPF dynamic routing.
-
-**Technologies:** OSPF, Loopback, Passive Interface, Route Verification
-
-[View Project](./02-ospf/)
+[View Project](./01-vlan-intervlan-dhcp-ssh)
 
 ---
 
-### 🔹 DHCP & DNS
+### 🔹 02 — STP + LACP EtherChannel + Port Security
 
-Network infrastructure providing automatic IP addressing and DNS services.
+Layer 2 switching lab demonstrating loop prevention, redundancy, link aggregation, and switch security.
 
-**Technologies:** DHCP, DNS, IP Addressing
+**Technologies:**
 
-[View Project](./03-dhcp-dns/)
+* STP
+* LACP
+* EtherChannel
+* VLAN Trunking
+* Port Security
+* PortFast
+* BPDU Guard
+* Voice VLAN
 
----
-
-### 🔹 NAT & ACL
-
-Network implementing address translation and traffic filtering.
-
-**Technologies:** NAT, PAT, Standard ACL, Extended ACL
-
-[View Project](./04-nat-acl/)
-
----
-
-### 🔹 Enterprise Network
-
-A complete enterprise network design combining multiple networking technologies.
-
-**Technologies:** VLAN, OSPF, DHCP, NAT, ACL, STP
-
-[View Project](./05-enterprise-network/)
+[View Project](./02-stp-etherchannel-port-security)
 
 ---
 
-### 🔹 Network Troubleshooting
+### 🔹 03 — OSPF Single Area
 
-Practical troubleshooting scenarios involving routing, VLANs, addressing, and connectivity.
+Multi-router network implementing dynamic routing using OSPF Area 0.
 
-**Technologies:** Cisco IOS, Troubleshooting, Wireshark
+**Technologies:**
 
-[View Project](./06-troubleshooting/)
+* OSPF
+* Loopback Interfaces
+* Passive Interfaces
+* Dynamic Routing
+* Route Verification
+
+[View Project](./03-ospf-single-area)
+
+---
+
+### 🔹 04 — NAT, PAT & ACL Edge Network
+
+Enterprise edge network implementing address translation and traffic filtering.
+
+**Technologies:**
+
+* NAT
+* PAT
+* Standard ACL
+* Extended ACL
+* Traffic Filtering
+
+[View Project](./04-nat-pat-acl-edge)
+
+---
+
+### 🔹 05 — HSRP Gateway Redundancy
+
+High-availability gateway design using HSRP to provide first-hop redundancy.
+
+**Technologies:**
+
+* HSRP
+* Gateway Redundancy
+* VLAN
+* Inter-VLAN Routing
+* High Availability
+
+[View Project](./05-hsrp-gateway-redundancy)
+
+---
+
+### 🔹 06 — OSPF Multi-Area & Route Summarization
+
+Multi-area OSPF network demonstrating hierarchical routing and route summarization.
+
+**Technologies:**
+
+* OSPF Multi-Area
+* Area 0
+* Non-Backbone Areas
+* Route Summarization
+* Route Verification
+
+[View Project](./06-ospf-multi-area-summarization)
+
+---
+
+### 🔹 07 — Network Troubleshooting Lab
+
+Practical troubleshooting scenarios involving VLANs, routing, IP addressing, switching, and connectivity.
+
+**Technologies:**
+
+* Cisco IOS
+* Network Troubleshooting
+* Wireshark
+* Verification Commands
+* Root Cause Analysis
+
+[View Project](./07-troubleshooting-lab)
+
+---
+
+### 🔹 08 — Network Automation with Python & SSH
+
+Network automation lab for collecting device information and executing commands remotely.
+
+**Technologies:**
+
+* Python
+* SSH
+* Network Automation
+* Cisco IOS
+* Git
+
+[View Project](./08-network-automation-python-ssh)
 
 ---
 
