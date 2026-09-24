@@ -191,7 +191,7 @@ Successful access confirms that the Static NAT and inbound ACL rules are functio
 
 ### 03 - ACL
 
-![ACL](./screenshots/03-acl.png)
+![ACL](./screenshots/03-ACL.png)
 
 ### 04 - Static NAT HTTP Test
 
